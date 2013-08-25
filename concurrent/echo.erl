@@ -12,7 +12,7 @@ go() ->
 	Pid ! {self(), hello},
 	%M = Pid ! {self(), hello},						% M will be the message itself
 
-	Reference = erlang:monitor(process, Pid)		% mointor the process termination by sending DOWN message
+	Reference = erlang:monitor(process, Pid)		% monitor the process termination by sending DOWN message
 
 	receive
 		{Pid, Msg} -> io:format("~w~n",[Msg]);
