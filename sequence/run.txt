@@ -1,3 +1,0 @@
-cd("E:/workspace/erlang/samples/sequence").
-c(test4).
-test4:hello().

@@ -1,5 +1,0 @@
-cd("E:/workspace/erlang/samples/basics").
-c(test7).
-%c(test7, [debug_info, export_all]).
-%m(test7).
-test7:hello().
