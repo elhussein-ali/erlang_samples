@@ -1,6 +1,0 @@
-cd("E:/workspace/erlang/samples/advanced").
-%c(test2).
-c(test2, [{d, debug}]).
-%c(test2, [E]). 			%% produced as a source code transformation on records with name xxxx.E
-%c(Module, [{i, Dir}]).		%% define several include path for libraries
-test2:hello().

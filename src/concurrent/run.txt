@@ -1,3 +1,0 @@
-cd("E:/workspace/erlang/samples/concurrent").
-c(myring).
-timer:tc(myring, start, [1000]).
